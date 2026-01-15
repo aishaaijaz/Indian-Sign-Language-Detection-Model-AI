@@ -1,5 +1,11 @@
-## Dataset
-The dataset used in this project is publicly available on Kaggle:
-https://www.kaggle.com/datasets/soumyakushwaha/indian-sign-language-dataset
+# Image Detection Model AI
 
-Due to size and licensing, the dataset is not included in this repository.
+This project implements an image detection model for recognizing Indian Sign Language hand signs.
+
+## Dataset
+- The dataset is from Kaggle: https://www.kaggle.com/datasets/soumyakushwaha/indian-sign-language-dataset
+
+## How to run
+1. Clone the repo
+2. Install dependencies
+3. Open notebooks to run models
