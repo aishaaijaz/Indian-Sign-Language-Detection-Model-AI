@@ -15,6 +15,12 @@ Dataset is not included due to size and licensing constraints.
 - Integrate the trained model with a live camera feed
 - Perform real-time gesture detection
 
+## Quick Setup
+1. Clone the repo
+2. Install dependencies: `pip install -r requirements.txt`
+3. Download dataset from Kaggle
+4. Run `Real Time Detection.ipynb`
+
 ## Files
 - Models used.ipynb-> Model experiments <br>
 - Real Time Detection.ipynb-> Live webcam detection <br>
@@ -34,4 +40,4 @@ Python, OpenCV, Machine Learning, Computer Vision
 - TensorFlow / Keras
 - NumPy
 - Jupyter Notebook<br>
-Bash command " pip install opencv-python numpy tensorflow "
+`pip install opencv-python numpy tensorflow`
