@@ -1,6 +1,6 @@
 # Indian Sign Language Detection Model AI (Real-Time)
 
-# **Note**
+**Note**
 This repository is a personal fork representing my involvement in the
 Indian Sign Language Detection project developed collaboratively with teammates.
 
