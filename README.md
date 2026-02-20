@@ -1,9 +1,16 @@
 # Indian Sign Language Detection Model AI (Real-Time)
+
+⚠️ **Note**
+This repository is a personal fork representing my involvement in the
+Indian Sign Language Detection project developed collaboratively with teammates.
+
+
 A real-time hand sign detection system that uses a live webcam feed to recognize
 Indian Sign Language (ISL) gestures using machine learning and computer vision. <br>
 This repository contains a real-time computer vision system that detects Indian Sign Language
 hand gestures from a live webcam feed. The model is trained using a curated dataset,
 and is integrated into a webcam application for real-time inference.
+
 ## Dataset
 - Indian Sign Language Dataset (Kaggle)  
 - https://www.kaggle.com/datasets/soumyakushwaha/indian-sign-language-dataset  
@@ -17,9 +24,10 @@ Dataset is not included due to size and licensing constraints.
 - End-to-end integration with Python and OpenCV
 
 ## How It Works
-- Train ML models on ISL hand sign data
-- Integrate the trained model with a live camera feed
-- Perform real-time gesture detection
+1. Webcam captures live frames using OpenCV
+2. Hand region preprocessing and resizing
+3. Model performs classification
+4. Prediction displayed in real time
 
 ## Quick Setup
 1. Clone the repository:
@@ -55,7 +63,8 @@ Run:
 - Improve preprocessing and segmentation
 
 ## Tech Stack
-Python, OpenCV, Machine Learning, Computer Vision
+Python, OpenCV, TensorFlow/Keras, CNN-based Image Classification,
+NumPy, Real-Time Video Processing
 
 ## Requirements
 - Python 3.x
@@ -67,5 +76,3 @@ Python, OpenCV, Machine Learning, Computer Vision
 pip install opencv-python numpy tensorflow
 ```
 
-## Teammate
-- Aisha Aijaz-(https://github.com/aishaaijaz)
