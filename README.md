@@ -76,3 +76,5 @@ NumPy, Real-Time Video Processing
 pip install opencv-python numpy tensorflow
 ```
 
+## Teammates
+Nishtha Priya (https://github.com/Nishtha-Priya)
